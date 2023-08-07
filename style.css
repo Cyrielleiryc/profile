@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Julius+Sans+One&display=swap');
+
+.container {
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  background-color: white;
+  width: 80%;
+  margin: 10px auto;
+  padding: 20px;
+  border: 2px solid rgb(255, 198, 172);
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px rgba(255, 198, 172, 0.5)
+}
+
+body {
+  background-color: rgb(255, 246, 220);
+  font-family: 'Archivo Narrow', sans-serif;
+  color: #5E5B3D;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 900;
+  color: #424348;
+}
+
+.img-circle {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  border: 2px dotted #5E5B3D;
+}
+
+.btn-apricot {
+  border: 1px solid #B83A00;
+  padding: 8px;
+  background-color: rgb(255, 246, 220);
+}
+
+.btn-apricot:hover {
+  border: 1px dashed #B83A00;
+}
+
+a {
+  text-decoration: none;
+  color: #B83A00;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3D1300;
+}
+
+.social-logo {
+  font-size: 32px;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
