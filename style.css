@@ -61,7 +61,8 @@ h1, h2 {
 
 .btn-apricot {
   border: 1px solid #B83A00;
-  padding: 8px;
+  border-radius: 25px;
+  padding: 12px;
   background-color: rgb(255, 246, 220);
 }
 
